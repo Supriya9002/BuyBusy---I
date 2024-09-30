@@ -6,7 +6,7 @@ BuyBusy is a web application designed for customers of an e-commerce business. I
 
 ## Hosted Link
 
-[Add your hosted link here]
+https://66faff2dfc37711d13b57d4d--splendid-pavlova-ee9119.netlify.app/
 
 ## Goal
 
