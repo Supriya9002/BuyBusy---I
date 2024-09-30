@@ -1,0 +1,59 @@
+/* //! Price-Container */
+h1{
+    margin-top: 1.5rem;
+}
+.filterContainer {
+    background-color: #d3d3e9;
+    /* padding: 20px; */
+    margin: 10px;
+    padding-top: 15px;
+    border-radius: 10px;
+    height: 150px;
+    width: 224px;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.TotalPrice {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    background-color: #d3d3e9;
+    margin-top: 1.2rem;
+}
+.Purchase {
+    height: 1.7rem;
+    width: 6rem;
+    background-color: #766BE6;
+    border: 2px solid #766BE6;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 3.8rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: .2rem;
+}
+.Purchase:hover{
+    color: #766BE6;
+    background-color: #cdcdcd;
+    border: 1px solid #766BE6;
+}
+
+/* //! Cart List Container */
+.ProductListContainer{
+    /* border: 2px solid red; */
+    height: auto;
+    width: 68%;
+    display: flex;
+    flex-direction: row;
+    margin: 3.7rem auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}

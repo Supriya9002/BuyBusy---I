@@ -1,0 +1,70 @@
+.NavbarContainer{
+    height: 5.3rem;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 36rem;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 5px 5px -2px #F8F8F8;
+}
+.appName{
+    background-color: white;
+}
+.appName span{
+    margin: 5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6c22b2;
+    background-color: white;
+}
+.appName span:hover{
+    color: rgb(210, 11, 11);
+}
+.navPageContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+    height: 2rem;
+    background-color: white;
+}
+.navPageContainerContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    gap: .5rem;
+    background-color: white;
+}
+.navImg{
+    height: 2.3rem;
+    width: 2.3rem;
+    background-color: white;
+
+}
+.navText{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #9230ed;
+    background-color: white;
+    text-decoration: none;
+}
+.navText:hover{
+    color:  rgb(35, 29, 29);
+}
+.logOut{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #9230ed;
+    background-color: white;
+    text-decoration: none;
+    border: none;
+}
+.logOut:hover{
+    color:  rgb(35, 29, 29);
+}
+.link{
+    text-decoration: none;
+    background-color: white;
+}

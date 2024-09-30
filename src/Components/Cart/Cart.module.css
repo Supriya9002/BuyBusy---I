@@ -1,0 +1,84 @@
+.CartContainer{
+    overflow: hidden;
+    height: 38rem;
+    width: 21rem;
+    /* border: 2px solid gold; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px rgb(208, 206, 206);
+    background-color: #FFFFFF;
+}
+.cartImg{
+    height: 24rem;
+    width: 17.4rem;
+    /* border: 2px solid fuchsia; */
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 2rem;
+}
+.decs{
+    background-color: #FFFFFF;
+    /* border: 2px solid fuchsia; */
+    width: 17rem;
+    font-size: 1.3rem;
+    color: rgb(44, 41, 41);
+    margin-left: 1.8rem;
+    /* margin-bottom: 4rem; */
+    margin-bottom: 1rem;
+}
+.priceIncDes{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin-bottom: 1rem;
+}
+.priceIncDes img{
+    height: 2rem;
+    width: 2rem;
+}
+.price{
+    background-color: #FFFFFF;
+    margin-left: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-weight: bolder;
+    /* margin-bottom: 1rem; */
+    color: rgb(48, 41, 41);
+}
+.Decress{
+    margin-left: 5rem;
+    background-color: #FFFFFF;
+}
+.quantity{
+    background-color: #FFFFFF;
+    font-size: 1.4rem;
+    margin-left: 1.3rem;
+    margin-top: .2rem;
+}
+.Incress{
+    margin-left: 1.2rem;
+    background-color: #FFFFFF;
+}
+.removebutton{
+    /* background-color: #FFFFFF; */
+    width: 17rem;
+    height: 2.7rem;
+    background-color: #F14444;
+    border-radius: 6px;
+    margin-left: 1.8rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+}
+.removebutton:hover{
+    background-color: white;
+    border: 1px solid #F14444;
+    color: #F14444;
+}
