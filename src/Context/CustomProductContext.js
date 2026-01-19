@@ -106,7 +106,7 @@ function CustomProductContext({ children }) {
         }
       });
     }
-  }, [signedUser.id]);
+  }, [signedUser]);
 
   //! ...............................................Filter All...........................................
   useEffect(() => {
@@ -188,7 +188,7 @@ function CustomProductContext({ children }) {
     }
     // after filter collected Data set in setFilterProductArr
     setFilterProductArr(filterProductArr);
-  }, [searchName, filterPrice, categoryProduct]);
+  }, [searchName, filterPrice, categoryProduct, productArr ]);
 
   // //! ...............................................Loading.......................
 

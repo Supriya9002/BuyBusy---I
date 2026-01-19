@@ -1,7 +1,6 @@
 // Imports
 import Spinner from 'react-spinner-material';
 import styles from "./Loader.module.css";
-import load from "./../../Data/output-onlinegiftools.gif"
 
 // Component to show loading while data loads
 export default function Loader(){

@@ -4,7 +4,7 @@ import incrImg from "./../../Data/Incress.png"
 import decImg from "./../../Data/decress.png"
 
 function Cart({oneCart, index}){
-  const {handleRemoveToCart,handleIncress, handledecress, isRemoving, setIsRemoving} = useCustomHook();
+  const {handleRemoveToCart,handleIncress, handledecress, isRemoving} = useCustomHook();
 //   console.log("oneCart", oneCart)
   return (
     <div className={styles.CartContainer} key={index}>

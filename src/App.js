@@ -1,7 +1,7 @@
 import './App.css';
 import {Navbar} from './Components/NavBar/Navbar';
 import ProductList from './Components/ProductList/ProductList';
-import {createBrowserRouter,RouterProvider,Navigate} from "react-router-dom";
+import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import { CustomProductContext } from './Context/CustomProductContext';
 import { CustomUserContext} from './Context/CustomUserContext';
 import CartList from './Components/CartList/CartList';
@@ -11,8 +11,6 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Import toastify CSS
 import LogIn from './Components/LogIn/LogIn';
 import Register from './Components/Register/Register';
-import { useEffect, useState } from 'react';
-import { auth } from './FireBase/FireBaseConfig';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import ErrorPage from './Components/error/ErrorPage';
 
