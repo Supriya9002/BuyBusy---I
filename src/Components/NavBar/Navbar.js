@@ -23,43 +23,45 @@ export function Navbar() {
         <Link to="/" className={styles.link}><span>BusyBuy</span></Link>
       </div>
       <div className={styles.navPageContainer}>
-        {/* Home */}
         <div className={styles.navPageContainerContainer}>
-          <img src={HomeImg} alt="HomeImg" className={styles.navImg}/>
-          <Link to="/" className={styles.link}><span className={styles.navText} onClick={()=>handleHomeNavigation()}>Home</span></Link>
+          <Link to="/" className={styles.link} onClick={()=>handleHomeNavigation()}>
+            <img src={HomeImg} alt="HomeImg" className={styles.navImg}/>
+            <span className={styles.navText}>Home</span>
+          </Link>
         </div>
         {isLogin ? 
         <>
-          {/* Order */}
         <div className={styles.navPageContainerContainer}>
-          <img src={orderImg} alt="orderImg" className={styles.navImg}/>
-          <Link to="/myOrder" className={styles.link}>
-          <span className={styles.navText} onClick={()=> handleMyOrderNavigation()}>My Orders</span>
+          <Link to="/myOrder" className={styles.link} onClick={()=> handleMyOrderNavigation()}>
+            <img src={orderImg} alt="orderImg" className={styles.navImg}/>
+            <span className={styles.navText}>My Orders</span>
           </Link>
         </div>
-        {/* Cart */}
         <div className={styles.navPageContainerContainer}>
-          <img src={cartImg} alt="orderImg" className={styles.navImg}/>
-          <Link to="/cart" className={styles.link}><span className={styles.navText} 
-          onClick={()=>handleCartNavigation()}>Cart</span></Link>
+          <Link to="/cart" className={styles.link} onClick={()=>handleCartNavigation()}>
+            <img src={cartImg} alt="orderImg" className={styles.navImg}/>
+            <span className={styles.navText}>Cart</span>
+          </Link>
         </div>
         </> 
         : null}
         
         {isLogin === false
         ? (
-          //LogIn
           <div className={styles.navPageContainerContainer}>
-            <img src={logInImg} alt="logInImg" className={styles.navImg}/>
-            <Link to="/LogIn" className={styles.link}><span className={styles.navText} >LogIn</span></Link>
+            <Link to="/LogIn" className={styles.link}>
+              <img src={logInImg} alt="logInImg" className={styles.navImg}/>
+              <span className={styles.navText} >LogIn</span>
+            </Link>
           </div>
         )
         :
         (
-          //LogOut
           <div className={styles.navPageContainerContainer}>
-            <img src={logoutImg} alt="logoutImg" className={styles.navImg}/>
-            <button className={styles.logOut} onClick={()=>handleLogOut(navigate)}>LogOut</button>
+            <button className={styles.logOut} onClick={()=>handleLogOut(navigate)}>
+              <img src={logoutImg} alt="logoutImg" className={styles.navImg}/>
+              <span className={styles.navText}>LogOut</span>
+            </button>
         </div>
         )
         }
@@ -70,4 +72,3 @@ export function Navbar() {
     </>
   );
 }
-

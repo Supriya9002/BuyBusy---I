@@ -38,3 +38,18 @@
     cursor: pointer;
   }
   
+  @media (max-width: 600px) {
+    .errorHeading {
+      font-size: 5rem;
+    }
+    .errorMessage {
+      font-size: 1.5rem;
+    }
+    .errorDescription {
+      font-size: 1rem;
+    }
+    .errorButton {
+      width: 80%;
+      max-width: 320px;
+    }
+  }

@@ -1,6 +1,14 @@
 .divContainer{
-    position: relative;
-    left: 47%;
-    top: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
     overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .divContainer{
+      height: 60vh;
+  }
 }

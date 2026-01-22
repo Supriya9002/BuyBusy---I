@@ -58,3 +58,30 @@
     border: 1px solid #7064E5;
     color: #7064E5;
 }
+
+@media (max-width: 600px) {
+  .ProductContainer{
+      width: 90vw;
+      height: auto;
+  }
+  .ProductContainer img{
+      width: 85%;
+      height: auto;
+      margin-top: 1rem;
+  }
+  .ProductContainer p{
+      width: 85%;
+      font-size: 1rem;
+      margin-left: 1rem;
+  }
+  .ProductContainer span{
+      font-size: 1.2rem;
+      margin-left: 1rem;
+  }
+  .ProductContainer button{
+      width: 85%;
+      margin-left: 1rem;
+      height: 2.5rem;
+      font-size: 1rem;
+  }
+}

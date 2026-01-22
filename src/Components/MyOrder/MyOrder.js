@@ -16,7 +16,8 @@ function MyOrder(){
     {myOrder.map((oneOrder, ind)=>(
         <>
     <h2>Ordered On:- {oneOrder.orderDate.split('T')[0]}</h2>
-    <table className={styles.table} key={ind}>
+    <div className={styles.tableWrapper} key={ind}>
+    <table className={styles.table}>
         <thead>
             <tr>
                 <th>Title</th>
@@ -42,6 +43,7 @@ function MyOrder(){
             </tr>
         </tfoot>
     </table>
+    </div>
     </>
     ))}
 </div>

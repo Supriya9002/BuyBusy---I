@@ -82,3 +82,39 @@
     border: 1px solid #F14444;
     color: #F14444;
 }
+
+@media (max-width: 600px) {
+  .CartContainer{
+      width: 90vw;
+      height: auto;
+  }
+  .cartImg{
+      width: 85%;
+      height: auto;
+      margin-top: 1rem;
+  }
+  .decs{
+      width: 85%;
+      font-size: 1rem;
+      margin-left: 1rem;
+  }
+  .price{
+      margin-left: 1rem;
+      font-size: 1.2rem;
+  }
+  .Decress{
+      margin-left: 3rem;
+  }
+  .quantity{
+      font-size: 1.2rem;
+  }
+  .Incress{
+      margin-left: 1rem;
+  }
+  .removebutton{
+      width: 85%;
+      margin-left: 1rem;
+      height: 2.5rem;
+      font-size: 1rem;
+  }
+}

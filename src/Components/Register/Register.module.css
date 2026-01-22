@@ -42,3 +42,27 @@
     text-decoration: none;
     margin-top: .4rem;
 }
+
+@media (max-width: 600px) {
+  .SignContainer{
+      width: 90%;
+      height: auto;
+      margin: 3rem auto;
+  }
+  .Sign{
+      font-size: 1.8rem;
+  }
+  .SignForm{
+      gap: .8rem;
+  }
+  .SignForm input{
+      width: 100%;
+      height: 2.6rem;
+      font-size: 1rem;
+  }
+  .SignForm button{
+      width: 100%;
+      height: 2.4rem;
+      font-size: 1rem;
+  }
+}

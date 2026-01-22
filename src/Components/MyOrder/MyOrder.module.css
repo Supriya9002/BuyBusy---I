@@ -24,6 +24,11 @@ h2{
     border-radius: 20px 20px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+    width: 100%;
+}
+.tableWrapper{
+    width: 100%;
+    overflow-x: hidden;
 }
 th{
     border: 1px solid whitesmoke;
@@ -55,4 +60,42 @@ tbody tr:nth-of-type(even){
 }
 .sup{
     border-right: 1px solid #009879;
+}
+
+@media (max-width: 600px) {
+  .orderDiv{
+      width: 95%;
+  }
+  .yourOder{
+      font-size: 1.6rem;
+  }
+  h2{
+      font-size: 1.1rem;
+  }
+  .table{
+      width: 100%;
+      font-size: 1rem;
+      table-layout: fixed;
+  }
+  .table thead tr{
+      font-size: 1.1rem;
+  }
+  th, .table td{
+      padding: .5rem .4rem;
+      white-space: normal;
+      word-break: break-word;
+  }
+  .table th:nth-child(1), .table td:nth-child(1){
+      width: 50%;
+      text-align: left;
+  }
+  .table th:nth-child(2), .table td:nth-child(2){
+      width: 16%;
+  }
+  .table th:nth-child(3), .table td:nth-child(3){
+      width: 16%;
+  }
+  .table th:nth-child(4), .table td:nth-child(4){
+      width: 18%;
+  }
 }

@@ -67,4 +67,40 @@
 .link{
     text-decoration: none;
     background-color: white;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+@media (max-width: 600px) {
+  .NavbarContainer{
+      height: auto;
+      padding: 0.5rem 1rem;
+      gap: 0;
+      justify-content: space-between;
+  }
+  .appName span{
+      margin: 0;
+      font-size: 1.2rem;
+  }
+  .navPageContainer{
+      gap: 1rem;
+      flex-wrap: wrap;
+  }
+  .navPageContainerContainer{
+      gap: .4rem;
+  }
+  .navImg{
+      height: 1.8rem;
+      width: 1.8rem;
+  }
+  .navText{
+      display: none;
+  }
+  .logOut{
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+  }
 }
